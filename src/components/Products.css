@@ -1,0 +1,17 @@
+.row .card {
+    height: 500px;
+}
+
+.image {
+    border-bottom: 3px solid #ddd;
+    padding: 20px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.image img {
+    width: 45%;
+}

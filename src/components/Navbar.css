@@ -1,0 +1,38 @@
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:last-child {
+    position: relative;
+}
+
+.navbar a:last-child span {
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    top: 0;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navbar a:last-child .icon {
+    font-size: 25px;
+}
